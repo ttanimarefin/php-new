@@ -23,6 +23,26 @@ echo"\n";
 
 $constant='constant';
 echo "value of pi ={$constant('PI')}";
+echo"\n";
+
+//output print way
+
+/* int, double/float, boolean, string, array, object, resource */
+
+$name="bangla";
+$name1="tasin";
+$name2=2;
+$name3=null;
+$result=true;
+
+
+var_dump($name,$name1,$name2,$name3,$result);
+echo"\n";
+
+echo 'we\'re talk '.$name;
+
+
+
 
 
 
