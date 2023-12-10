@@ -19,6 +19,13 @@ echo"\n";
 //constant
 define('PI',3.1416);
 echo 'value '.PI;
+echo"\n";
+
+$constant='constant';
+echo "value of pi ={$constant('PI')}";
+
+
+
 
 
 
