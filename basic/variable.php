@@ -41,7 +41,36 @@ echo"\n";
 
 echo 'we\'re talk '.$name;
 
+//uppercase
+$uname=strtoupper($name);
+echo "we are talk with {$uname}";
+echo"\n";
 
+
+//using prinf
+
+printf("we are talk with %s", $name);
+echo"\n";
+
+$fname="tasin";
+$mname="ahammed";
+$kname=
+printf("his %s name is %s %s", "full",$fname,$mname);
+echo"\n";
+
+//multiple line print
+
+echo "my 
+name
+is
+{$fname}";
+echo"\n";
+
+$planet1="mercury";
+$planet2="jupiter";
+
+echo "The smallest planet is ".$planet1."and the biggest is ".$planet2. "\n";
+echo "The smallest planet is {$planet1} and the biggest is {$planet2};
 
 
 
