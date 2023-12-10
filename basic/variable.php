@@ -70,7 +70,21 @@ $planet1="mercury";
 $planet2="jupiter";
 
 echo "The smallest planet is ".$planet1."and the biggest is ".$planet2. "\n";
-echo "The smallest planet is {$planet1} and the biggest is {$planet2};
+echo "The smallest planet is {$planet1} and the biggest is {$planet2} ";
+echo"\n";
+
+//sum and subtraction
+
+$num=10+1;
+$num1=$num+1;
+$num1 += 1;
+echo $num1;
+//multiplication
+echo"\n";
+$num3=(5+1) * 5 -3;
+echo $num3;
+
+
 
 
 
