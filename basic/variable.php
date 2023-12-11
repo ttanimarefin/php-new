@@ -125,6 +125,14 @@ echo"\n";
 
 //decimal
 printf("%08.4f",$n3);
+echo"\n";
+
+//sprintf
+$output = sprintf("the number is %d and %d",$n1,$n2);
+echo $output;
+
+
+
 
 
 
