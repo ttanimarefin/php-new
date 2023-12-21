@@ -85,53 +85,6 @@ $num3=(5+1) * 5 -3;
 echo $num3;
 echo"\n";
 
-//number system
-
-$d=12; //dec
-$o=012; //oct
-$h=0x2B;
-
-printf("The Number is %d and %d %d",$d,$o,$h);
-echo"\n";
-printf("The binary of  is %b",$d); 
-echo"\n";
-printf("The hexadecimal of %d is %x",12,1245); 
-echo"\n";
-printf("The octal of %d is %o",12,12); 
-echo"\n";
- 
-
-//printf fuction
-
-$fname1="tasin";
-$lname1="ahammed";
-printf('His name is %2$s %1$s',$fname1,$lname1);
-echo"\n";
-//decimal to binary using prinf function
-printf('the binary of %1$d to %1$b',12);
-echo"\n";
-
-//print after the decimal point
-$p=2.1214;
-printf("%.4f",$p);
-echo"\n";
-
-//before 0 print 
-$n1=12;
-$n2=1234;
-$n3=123.456;
-printf("%05d",$n1);
-echo"\n";
-
-//decimal
-printf("%08.4f",$n3);
-echo"\n";
-
-//sprintf
-$output = sprintf("the number is %d and %d",$n1,$n2);
-echo $output;
-echo"\n";
-
 
 //condition logic and logical oparator
 
