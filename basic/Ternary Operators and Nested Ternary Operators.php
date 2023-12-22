@@ -16,3 +16,9 @@ echo "\n";
 
 $result = ($n % 2 == 0) ? "even" : "odd";
 echo $result;
+echo "\n";
+//new chech 
+$m= 13;
+
+$r= ($m %2 ==0 ) ? "even" : (( $m==13)? "B":"c");
+echo $r;
